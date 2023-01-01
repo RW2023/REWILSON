@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  ul {
+    padding: 0;
+    background: black;
+    font-family: 'Share Tech', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 25%;
+    height: auto;
+    border: 3px solid whitesmoke;
+  }
+  
+  .heading {
+    font-family: 'Share Tech', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .content {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 18px
+  }
+  
+  h1 {
+    color: whitesmoke(240, 235, 235);
+    background-color: black;
+    text-transform: uppercase;
+    text-align: Center;
+    font-weight: 50;
+  }
+  
+  h2 {
+    font-weight: 50;
+    font-style: italic;
+    font-style: italic;
+    text-align: center;
+    border: 1px dotted whitesmoke;
+  }
+  
+  p {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 20px border 2px dotted whitesmoke
+  }
+  
+  .byline {
+    border-bottom: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    color: whitesmoke;
+    font-size: 20 px;
+    font-weight: 200;
+    font-family: 'Share Tech', sans-serif;
+  }
+  
+  body {
+    margin: 95px;
+    background: url(https://i.ibb.co/jZ8Wj48/camera-selfie.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: whitesmoke;
+    /*background: whitesmoke;*/
+  }
+  
+  .nav {
+    position: sticky;
+    top: 20;
+    width: 100%;
+    font-style: italic`;
+    font-family: 'Share Tech', sans-serif;
+  }
