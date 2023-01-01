@@ -1,6 +1,10 @@
 body {
-  margin-left: 38px;
-}
+    margin-left: 16px;
+    border-right-width: 0px;
+    border-right-style: solid;
+    margin-right: 8px;
+    margin-top: 29px;
+  }
 
 img {
   max-width: 300px;

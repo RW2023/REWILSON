@@ -68,7 +68,6 @@
   }
   
   body {
-    margin: 95px;
     background: url(https://i.ibb.co/jZ8Wj48/camera-selfie.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -76,7 +75,11 @@
     background-size: cover;
     color: whitesmoke;
     /*background: whitesmoke;*/
-  }
+    margin-left: 16px;
+    border-right-width: 0px;
+    margin-right: 8px;
+    margin-top: 29px;
+    }
   
   .nav {
     position: sticky;
