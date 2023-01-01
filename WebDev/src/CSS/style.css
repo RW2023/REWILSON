@@ -5,25 +5,16 @@ body {
 img {
   max-width: 300px;
   border-radius: 85%;
-  border: 3px solid whitesmoke;
+  border: 8px double black;
 }
 
 * {
   box-sizing: border-box;
-}
-
-a {
-  display: block;
-  padding: 10px;
-  color: white;
-  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+  color: black;
 }
 
 .byline {
   border-top: 3px;
   border-bottom: 3px;
-}
-
-p {
-  color: black;
 }
