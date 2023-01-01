@@ -5,16 +5,30 @@ body {
 img {
   max-width: 300px;
   border-radius: 85%;
-  border: 8px double black;
+  border: 8px double whitesmoke;
 }
 
 * {
   box-sizing: border-box;
   font-family: "Exo 2", sans-serif;
-  color: black;
+  color: whitesmoke;
+  background-color: #2d2d2d;
 }
 
 .byline {
   border-top: 3px;
   border-bottom: 3px;
 }
+
+#lr_embed{
+  max-width: 300px;
+  border-radius: 85%;
+  border: 8px double whitesmoke;
+}
+
+.gallery{
+    box-sizing: border-box;
+    color: black;
+    max-height: 311px;
+    max-width: 705px;
+  }
