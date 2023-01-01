@@ -1,20 +1,29 @@
-img {
-	max-width: 300px;
-  border-radius: 25%;
+body {
+  margin-left: 38px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+img {
+  max-width: 300px;
+  border-radius: 85%;
+  border: 3px solid whitesmoke;
+}
 
-  li {
-      float: left;
-    }
-    
-    a {
-      display: block;
-      padding: 8px;
-      background-color: #dddddd;
-    }
+* {
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.byline {
+  border-top: 3px;
+  border-bottom: 3px;
+}
+
+p {
+  color: black;
+}
