@@ -89,3 +89,31 @@
     font-style: italic`;
     font-family: 'Share Tech', sans-serif;
   }
+
+  #top-nav
+  a:link, a:visited {
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    a:hover, a:active 
+    background-color: grey;
+    color: white;
+  }
+
+  #bottom-nav
+  a:link, a:visited {
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    a:hover, a:active 
+    background-color: grey;
+    color: white;
+  }
