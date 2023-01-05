@@ -17,7 +17,7 @@
   a {
     display: block;
     padding: 10px;
-    color: white;
+    color: #466995;
     text-decoration: none;
   }
   
@@ -93,21 +93,22 @@
   #top-nav
   a:link, a:visited {
     background-color: black;
-    color: 466995;
+    color: #466995;
     border: 2px solid whitesmoke;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    a:hover, a:active 
+    
+  a:hover, a:active{
     background-color: grey;
-    color: white;
+    color: #466995;
   }
 
   #bottom-nav
   a:link, a:visited {
     background-color: black;
-    color: whitesmoke;
+    color: #466995;
     border: 2px solid whitesmoke;
     padding: 10px 20px;
     text-align: center;
@@ -134,5 +135,5 @@
   }
 
   a:active {
-      color: #e27154;
+      color: #e25462;
     }
