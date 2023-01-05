@@ -65,3 +65,8 @@ img {
     background-color: grey;
     color: white;
   }
+
+  a:link, a:visited{
+    color: #466995;
+    text-decoration: underline;
+  }
