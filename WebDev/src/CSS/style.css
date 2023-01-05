@@ -47,9 +47,7 @@ img {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  
-  a:hover, a:active {
+    a:hover, a:active 
     background-color: grey;
     color: white;
-  {
+  }
