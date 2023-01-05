@@ -70,3 +70,22 @@ img {
     color: #466995;
     text-decoration: underline;
   }
+
+  a:link {
+    color: #466995;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+  
+
+  a:visited{
+    color: #2175db;
+  }
+
+  a:active {
+      color: #aadbed;
+    }

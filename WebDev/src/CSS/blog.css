@@ -93,7 +93,7 @@
   #top-nav
   a:link, a:visited {
     background-color: black;
-    color: whitesmoke;
+    color: 466995;
     border: 2px solid whitesmoke;
     padding: 10px 20px;
     text-align: center;
@@ -118,7 +118,21 @@
     color: white;
   }
 
-  a:link, a:visited{
+  a:link {
     color: #466995;
     text-decoration: underline;
   }
+
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+  
+
+  a:visited{
+    color: #466995;
+  }
+
+  a:active {
+      color: #e27154;
+    }
