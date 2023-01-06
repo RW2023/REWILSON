@@ -10,14 +10,14 @@ body {
 img {
   max-width: 300px;
   border-radius: 85%;
-  border: 8px double gray;
+  border: 4px double whitesmoke;
 }
 
 * {
   box-sizing: border-box;
   font-family: "Exo 2", sans-serif;
   color: whitesmoke;
-  background-color: #2d2d2d;
+  background-color: #000;
 }
 
 .byline {
