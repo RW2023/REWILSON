@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./WebDev/src/CSS/table.css">
+    <title>CSS Selectors</title>
+</head>
+<body>
+    <header>
+      <h1>Variants of CSS selectors</h1>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Selector</th>
+            <th>Example</th>
+            <th>Example Description</th>
+          </tr>
+        </thead>
+        <tbody>
+           <tr>
+              <td class="itali">.class</td>
+              <td>.artic</td>
+             <td>Selects all elements with <span>class="artic"</span></td> 
+          </tr>
+          <tr>
+              <td class="itali">.class1.class2</td>
+              <td>.name1.name2</td>
+            <td>Selects all elements with both <span>name1</span> and <span>name2</span> set 
+    within its class attribute</td>
+          </tr>  
+          <tr>
+              <td class="itali">#id</td>
+              <td class="notranslate">#firstname</td>
+            <td>Selects the element with <span>id=&quot;firstname&quot;</span></td>
+          </tr> 
+          <tr>
+              <td class="itali">*</td>
+              <td>*</td>
+            <td><span>Selects all elements</span></td>
+          </tr>
+          <tr>
+              <td class="itali">element</td>
+              <td>p</td>
+            <td>Selects all <span>&lt;p&gt;</span> elements</td>
+          </tr>
+          <tr>
+              <td class="itali">element.class</td>
+              <td>p.intro</td>
+            <td>Selects all <span>&lt;p&gt;</span> elements with <span>class=&quot;intro&quot;</span></td>
+          </tr>
+          <tr>
+              <td class="itali">element,element</td>
+              <td>div, p</td>
+            <td>Selects all <span>&lt;div&gt;</span> elements and all <span>&lt;p&gt;</span> elements</td>
+          </tr>
+          <tr>
+              <td class="itali">element element</td>
+              <td>div p</td>
+            <td>Selects all <span>&lt;p&gt;</span> elements inside <span>&lt;div&gt;</span> elements</td>
+          </tr>
+          <tr>
+              <td class="itali">element&gt;element</td>
+              <td>div &gt; p</td>
+            <td>Selects all <span>&lt;p&gt;</span> elements where the parent is a <span>&lt;div&gt;</span> element</td>
+          </tr>
+          <tr>
+              <td class="itali">element+element</td>
+              <td>div + p</td>
+            <td>Selects all <span>&lt;p&gt;</span> elements that are placed immediately after <span>&lt;div&gt;</span> elements</td>
+          </tr>
+          <tr>
+              <td class="itali">element1~element2</td>
+              <td>p ~ ul</td>
+            <td>Selects every <span>&lt;ul&gt;</span> element that are preceded by a <span>&lt;p&gt;</span> element</td>
+          </tr>
+          <tr>
+              <td class="itali">[attribute]</td>
+              <td>[target]</td>
+            <td>Selects <span>all</span> elements with a <span>target attribute</span></td>
+          </tr>
+          <tr>
+              <td class="itali">[attribute=value]</td>
+              <td>[target=_blank]</td>
+            <td>Selects all elements with <span>target=&quot;_blank&quot;</span></td>
+          </tr>
+          <tr>
+              <td class="itali">[attribute~=value]</td>
+              <td>[title~=flower]</td>
+              <td>Selects all elements with a title attribute containing the word <span>&quot;flower&quot;</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p class="foot">CSS Selectors</p>
+      <p class="continue">Incomplete list</p>
+    </footer>
+  </body>
+</html>

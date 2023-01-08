@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: silver;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: solid #4D4C7D
+}
+
+h2 {
+  color: #4D4C7D;
+  text-align: center;
+}
+
+table {
+  border: 2px solid #466995;
+  width: 650px;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: #4D4C7D;
+  color: whitesmoke;
+}
+
+td {
+  border-top: 1px #466995;
+}
+
+.code {
+  font-family: monospace;
+  background-color: #7c0505;
+}
