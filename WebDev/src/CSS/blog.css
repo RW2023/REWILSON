@@ -1,125 +1,138 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  
-  ul {
-    padding: 0;
-    background: black;
-    font-family: 'Share Tech', sans-serif;
-    text-transform: uppercase;
-  }
-  
-  li {
-    display: inline-block;
-  }
-  
-  a {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    border: 3px solid whitesmoke;
-  }
-  
-  .heading {
-    font-family: 'Share Tech', sans-serif;
-    text-transform: uppercase;
-  }
-  
-  .content {
-    font-family: 'Share Tech', sans-serif;
-    font-size: 18px
-  }
-  
-  h1 {
-    color: whitesmoke(240, 235, 235);
-    background-color: #2e349661;
-    text-transform: uppercase;
-    text-align: Center;
-    font-weight: 50;
-  }
-  
-  h2 {
-    font-weight: 50;
-    font-style: italic;
-    font-style: italic;
-    text-align: center;
-    border: 1px dotted whitesmoke;
-  }
-  
-  p {
-    font-family: 'Share Tech', sans-serif;
-    font-size: 20px border 2px dotted whitesmoke
-  }
-  
-  .byline {
-    border-bottom: 1px solid whitesmoke;
-    border-top: 1px solid whitesmoke;
-    color: whitesmoke;
-    font-size: 20 px;
-    font-weight: 200;
-    font-family: 'Share Tech', sans-serif;
-  }
-  
-  body {
-    background: url(https://i.ibb.co/y4NBZnx/IMG-2279.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: whitesmoke;
-    /*background: whitesmoke;*/
-    margin-left: 16px;
-    border-right-width: 0px;
-    margin-right: 8px;
-    margin-top: 29px;
-    line-height: 1.6;
-    }
-  
-  .nav {
-    position: sticky;
-    top: 20;
-    width: 100%;
-    font-style: italic`;
-    font-family: 'Share Tech', sans-serif;
+  box-sizing: border-box;
+}
+
+
+ul {
+  padding: 0;
+  background: black;
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  display: inline;
+  padding: 10px;
+  color: #466995;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid whitesmoke;
+}
+
+.heading {
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+}
+
+.content {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 30px
+  color: white-smoke
+}
+
+h1 {
+  color: whitesmoke(240, 235, 235);
+  background-color: #2e349661;
+  text-transform: uppercase;
+  text-align: Center;
+  font-weight: 50;
+}
+
+h2 {
+  font-weight: 50;
+  font-style: italic;
+  font-style: italic;
+  text-align: center;
+  border: 1px dotted whitesmoke;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px border 2px dotted whitesmoke
+}
+
+.byline {
+  border-bottom: 1px solid whitesmoke;
+  border-top: 1px solid whitesmoke;
+  color: whitesmoke;
+  font-size: 20 px;
+  font-weight: 200;
+  font-family: 'Share Tech', sans-serif;
+}
+
+body {
+  background: url(https://i.ibb.co/y4NBZnx/IMG-2279.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: whitesmoke;
+  /*background: whitesmoke;*/
+  margin-left: 16px;
+  border-right-width: 0px;
+  margin-right: 8px;
+  margin-top: 29px;
+  line-height: 1.6;
   }
 
-  #top-nav
-  a:link, a:visited {
-    background-color: black;
-    color: whitesmoke;
-    border: 2px solid whitesmoke;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    a:hover, a:active 
-    background-color: grey;
-    color: white;
-  }
+.nav {
+  position: float;
+  top: 20;
+  width: 100%;
+  font-style: italic`;
+  font-family: 'Share Tech', sans-serif;
+}
 
-  #bottom-nav
-  a:link, a:visited {
-    background-color: black;
-    color: whitesmoke;
-    border: 2px solid whitesmoke;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    a:hover, a:active 
-    background-color: grey;
-    color: white;
-  }
+#top-nav
+ a:visited {
+  background-color: black;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  a:hover, a:active 
+  background-color: grey;
+  color: #466995;
+}
 
-  a:link, a:visited{
-    color: #466995;
-    text-decoration: underline;
-    display: inline
-  }
+#top-nav
+a:link{
+ background-color: black;
+  color: #466995;
+  border: 2px solid whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: unerline;
+  display: inline-block;
+  a:hover, a:active 
+  background-color: grey;
+  color: white;
+}
+
+#bottom-nav
+a:link, a:visited {
+  background-color: black;
+  color: #466995;
+  border: 2px solid whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  a:hover, a:active 
+  background-color: grey;
+  color: #466995;
+}
+
+a:link, a:hover{
+  color: #466995;
+}
