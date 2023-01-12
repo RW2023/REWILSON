@@ -54,3 +54,11 @@ td {
   color: black;
   border-radius: 5px;
 }
+
+.table{
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 300px;
+  flex-wrap: wrap;
+  width: 700px;
+}
