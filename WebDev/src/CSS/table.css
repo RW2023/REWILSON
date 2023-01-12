@@ -6,7 +6,8 @@ body {
 
 h1 {
   text-align: center;
-  border-bottom: solid #4D4C7D
+  border-bottom: solid #466995;
+  color: #4D4C7D;
 }
 
 h2 {
@@ -29,6 +30,7 @@ thead {
   background-color: #4D4C7D;
   color: whitesmoke;
   border-radius: 5px;
+  text-transform: uppercase
 }
 
 td {
@@ -45,14 +47,16 @@ td {
 
 .concept{
   background-color: #7c0505;
-  color: black;
+  color: #F2F2F2;
   border-radius: 5px;
+  font-family: monospace;
 }
 
-.discription{
+.description{
   background-color: #7c0505;
-  color: black;
+  color: #F2F2F2;
   border-radius: 5px;
+  font-family: monospace;
 }
 
 .table{
@@ -61,4 +65,9 @@ td {
   flex-basis: 300px;
   flex-wrap: wrap;
   width: 700px;
+}
+
+.td,
+          .description{
+  background-color: #4D4C7D;
 }
