@@ -32,23 +32,25 @@ thead {
 }
 
 td {
-  border: solid whitesmoke 1px;
+  border: dotted whitesmoke 1px;
   border-radius: 5px;
 }
 
 .code {
   font-family: monospace;
   background-color: #7c0505;
+  color: #F2F2F2;
+  border-radius: 5px;
 }
 
 .concept{
-  background-color: red;
+  background-color: #7c0505;
   color: black;
   border-radius: 5px;
 }
 
 .discription{
-  background-color: red;
+  background-color: #7c0505;
   color: black;
   border-radius: 5px;
 }
