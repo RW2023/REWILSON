@@ -37,3 +37,15 @@ td {
   font-family: monospace;
   background-color: #7c0505;
 }
+
+.concept{
+  background-color: red;
+  color: black;
+  border-radius: 5px;
+}
+
+.discription{
+  background-color: red;
+  color: black;
+  border-radius: 5px;
+}
