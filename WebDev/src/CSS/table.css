@@ -22,15 +22,18 @@ table {
   border: 2px solid #466995;
   width: 650px;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 thead {
   background-color: #4D4C7D;
   color: whitesmoke;
+  border-radius: 5px;
 }
 
 td {
   border: solid whitesmoke 1px;
+  border-radius: 5px;
 }
 
 .code {
