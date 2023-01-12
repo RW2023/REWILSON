@@ -20,14 +20,17 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: #B1AFFF;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #B1AFFF;
 }
 
 a:active {
   text-decoration: underline;
+  color: #FF0000;
 }
 
 img {
