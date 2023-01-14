@@ -38,35 +38,80 @@ img {
     max-width: 705px;
   }
 
-  #top-nav
-  a:link, a:visited {
-    background-color: black;
-    color: whitesmoke;
-    border: 2px solid whitesmoke;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    a:hover, a:active 
-    background-color: grey;
-    color: white;
-  }
+  
+#top-nav
+ a:visited {
+  background-color: black;
+  color: #7cb6b2;
+  border: 2px solid whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  a:hover, a:active 
+  background-color: grey;
+  color: #188580;
+}
 
-  #bottom-nav
-  a:link, a:visited {
-    background-color: black;
-    color: whitesmoke;
-    border: 2px solid whitesmoke;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    a:hover, a:active 
-    background-color: grey;
-    color: white;
-  }
+#top-nav
+a:link{
+ background-color: black;
+  color: #043672;
+  border: 2px solid whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: unerline;
+  display: inline-block;
+  a:hover, a:active 
+  background-color: grey;
+  color: #188580;
+}
 
-  a:link, a:visited{
-    color: #466995;
-    text-decoration: underline;
-  }
+#bottom-nav
+a:visited {
+  background-color: black;
+  color: #7cb6b2;
+  border: 2px solid whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  a:hover, a:active 
+  background-color: grey;
+  color: #188580;
+}
+
+#bottom-nav
+a:link{
+  background-color: #e8efff;
+   color: #043672;
+   border: 2px solid whitesmoke;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: unerline;
+   display: inline-block;
+   a:hover, a:active 
+   background-color: grey;
+   color: #188580;
+ }
+
+a:link {
+  text-decoration: underline;
+  color: #a44957;
+  font-weight: 600;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #7cb6b2;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #188580;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #FF0000;
+}
