@@ -115,3 +115,13 @@ a:active {
   text-decoration: underline;
   color: #FF0000;
 }
+
+.education
+  li::before {
+  content: "☛";
+  background: #188580;
+  border-radius: 1ch;
+  padding-inline: 1ch;
+  margin-inline-end: 1ch;
+  font-size: 1.25rem;
+}
