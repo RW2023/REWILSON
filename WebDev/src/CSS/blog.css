@@ -168,3 +168,8 @@ body {
   margin-top: 29px;
   line-height: 1.6;
   }
+
+  .content #day7{
+    border: 2px solid red;
+
+  }
