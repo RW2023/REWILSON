@@ -10,9 +10,17 @@ ul {
   text-transform: uppercase;
 }
 
-li {
+nav, li {
   display: inline;
 }
+
+.content, li{
+  display: block;
+}
+
+#bottom-nav, ul[
+  display
+]
 
 .nav {
   position: float;
@@ -44,7 +52,7 @@ a:link{
   padding: 10px 20px;
   text-align: center;
   text-decoration: unerline;
-  display: inline-block;
+  display: inline;
   a:hover, a:active 
   background-color: grey;
   color: #188580;
@@ -58,25 +66,28 @@ a:visited {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline;
   a:hover, a:active 
   background-color: grey;
   color: #188580;
+  
 }
 
 #bottom-nav
 a:link{
-  background-color: #e8efff;
-   color: #043672;
-   border: 2px solid whitesmoke;
-   padding: 10px 20px;
-   text-align: center;
-   text-decoration: unerline;
-   display: inline-block;
-   a:hover, a:active 
-   background-color: grey;
-   color: #188580;
- }
+ background-color: black;
+  color: #043672;
+  border: 2px solid whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: unerline;
+  display: inline;
+  a:hover, a:active 
+  background-color: grey;
+  color: #188580;
+  position: relative;
+  
+}
 
 a:link {
   text-decoration: underline;
