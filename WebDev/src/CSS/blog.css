@@ -10,11 +10,8 @@ ul {
   text-transform: uppercase;
 }
 
-nav, li {
-  display: inline;
-}
 
-.content, li{
+.content, li {
   display: block;
 }
 
