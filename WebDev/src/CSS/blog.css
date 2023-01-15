@@ -120,8 +120,9 @@ img {
 
 .content {
   font-family: 'Source Code Pro', monospace;
-  font-size: 30px
-  color: white-smoke
+  font-size: 18px;
+  color: white-smoke;
+  background-color: #111;
 }
 
 h1 {
@@ -154,22 +155,17 @@ p {
   font-family: 'Share Tech', sans-serif;
 }
 
-body {
-  background: url(https://i.ibb.co/y4NBZnx/IMG-2279.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: whitesmoke;
-  /*background: whitesmoke;*/
+body{
+  background-color: #222;
   margin-left: 16px;
   border-right-width: 0px;
   margin-right: 8px;
   margin-top: 29px;
   line-height: 1.6;
+  color: whitesmoke;
+  font-family: 'open sans';
   }
 
   .content #day7{
     border: 2px solid red;
-
   }
