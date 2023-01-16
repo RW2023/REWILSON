@@ -86,7 +86,7 @@ a:link{
 }
 
 a{
-  border-radius: 30px;
+  border-radius: 2rem;
 }
 
 a:link {
@@ -102,7 +102,10 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  color: #188580;
+  font-weight: bolder;
+  color: #8da9c4;
+  transform: translateY(-0.25em);
+  transition: all 0.25s;
 }
 
 a:active {
@@ -135,7 +138,7 @@ h1 {
   text-transform: uppercase;
   text-align: Center;
   font-weight: 50;
-  border-radius: 30px;
+  border-radius: 2rem;
 }
 
 h2 {
@@ -148,7 +151,7 @@ h2 {
    border: 1px solid #8da9c4;
   background-color: #0b2545;
   text-transform: uppercase;
-  border-radius: 30px;
+  border-radius: 2rem;
 }
 
 h3{
@@ -161,14 +164,13 @@ h3{
   background-color: #8da9c4;
   border: 5px solid #0b2545;
   border-width: 1px 4px;
-  border-radius: 10px 40px;
+  border-radius: 13.8rem 0.25rem;
   padding: 4px;
 }
 
 p {
   font-family: 'Hanken Grotesk','Open Sans', sans-serif,'Source Code Pro', monospace;
   font-size: 25px border 2px dotted whitesmoke;
-  border-radius: 10px;
 }
 
 .byline {
@@ -196,5 +198,5 @@ body{
   }
 
  #bottom-nav{
-  border-radius: 30px;
+  border-radius: 2rem;
  }
