@@ -83,7 +83,10 @@ a:link{
   background-color: grey;
   color: #188580;
   position: relative;
-  
+}
+
+a{
+  border-radius: 30px;
 }
 
 a:link {
@@ -191,3 +194,7 @@ body{
   .content #day7{
     border: 2px solid red;
   }
+
+ #bottom-nav{
+  border-radius: 30px;
+ }
