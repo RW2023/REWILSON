@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Hanken Grotesk','Open Sans', sans-serif;
 }
 body {
   background: #111;
@@ -26,7 +25,7 @@ a {
   text-decoration: none;
   color: grey;
   font-size: 1.3rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Hanken Grotesk''Open Sans', sans-serif;
   border: 2px solid grey;
   padding: 5px;
   border-radius: 10px;
