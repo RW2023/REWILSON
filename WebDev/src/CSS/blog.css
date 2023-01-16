@@ -138,7 +138,9 @@ h1 {
   text-transform: uppercase;
   text-align: Center;
   font-weight: 50;
+  border: 1px solid #8da9c4;
   border-radius: 2rem;
+
 }
 
 h2 {
@@ -148,7 +150,8 @@ h2 {
   font-weight: 50;
   font-style: italic;
   text-align: center;
-   border: 1px solid #8da9c4;
+  border: 1px solid #8da9c4;
+  padding: 1rem;
   background-color: #0b2545;
   text-transform: uppercase;
   border-radius: 2rem;
