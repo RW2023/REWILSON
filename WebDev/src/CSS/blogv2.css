@@ -116,3 +116,8 @@ text-decoration: underline;
 color: #a44957;
 font-weight: 600;
 }
+
+#day17 span{
+color: red;
+font-weight: 700;
+}
