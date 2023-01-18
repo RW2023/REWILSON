@@ -29,7 +29,8 @@ table {
   justify-content: flex-start;
   flex-wrap: wrap;
   padding-bottom: 1rem;
-  flex-shrink: 2rem:
+  flex-shrink: 2rem;
+  flex-grow: 2rem;
 }
 
 
