@@ -203,3 +203,8 @@ body{
  #bottom-nav{
   border-radius: 2rem;
  }
+
+#day17 span{
+color: red;
+font-weight: bold;
+}
