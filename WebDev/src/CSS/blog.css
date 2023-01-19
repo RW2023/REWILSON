@@ -214,4 +214,11 @@ body{
  #bottom-nav{
   border-radius: 2rem;
   display: flex;
+  background-color: #0c1622;
+  margin-top: 1rem;
+ }
+#top-nav{
+  border-radius: 2rem;
+  display: flex;
+  background-color: #0c1622;
  }
