@@ -207,10 +207,11 @@ body{
   font-family: 'Hanken Grotesk','Open Sans', sans-serif,'Open Sans', 'sans-serif';
   }
 
-  .content #day7{
+  /* .content #day7{
     border: 2px solid red;
-  }
+  } */
 
  #bottom-nav{
   border-radius: 2rem;
+  display: flex;
  }
