@@ -8,21 +8,26 @@ color: red;
 font-weight: bold;
 }
 
-ul {
+/* ul {
   padding: 0;
   background: black;
   font-family: 'Hanken Grotesk','Open Sans', sans-serif,'Source Code Pro', monospace;
   text-transform: uppercase;
-}
+} */
 
+nav ul{
+  padding: 0;
+  background: black;
+  text-transform: uppercase;
+}
 
 .content, li {
   display: block;
 }
 
-#bottom-nav, ul[
+/* #bottom-nav, ul[
   display
-]
+] */
 
 .nav {
   position: float;
@@ -87,7 +92,7 @@ a:link{
   a:hover, a:active 
   background-color: grey;
   color: #188580;
-  position: relative;
+  /* position: relative; */
 }
 
 a{
@@ -135,6 +140,7 @@ img {
   color: white-smoke;
   background-color: #0c1622;
   padding: 6px;
+  margin: auto;
 }
 
 h1 {
