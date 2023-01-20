@@ -21,8 +21,11 @@ nav ul{
   text-transform: uppercase;
 }
 
-#top-nav, #bottom-nav
-         li{
+#top-nav li{
+  list-style: none;
+}
+
+#bottom-nav li{
   list-style: none;
 }
 
@@ -50,7 +53,7 @@ nav ul{
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
   a:hover, a:active 
   background-color: grey;
   color: #188580;
