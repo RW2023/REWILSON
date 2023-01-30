@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fbox{
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 1;
+    height: 75%;
+    width:300px;
+    border: solid 3px black;
+    display: flex;
+}

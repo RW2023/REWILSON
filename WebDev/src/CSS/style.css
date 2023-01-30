@@ -115,3 +115,29 @@ a:active {
   text-decoration: underline;
   color: #FF0000;
 }
+
+.education
+  li::before {
+  content: "📚";
+  border-color: #188580;
+  border-radius: 1ch;
+  padding-inline: 1ch;
+  margin-inline-end: 1ch;
+  font-size: 1.25rem;
+}
+
+.hobbies
+  li::before{
+  content: "💖";
+  border-radius: 1ch;
+  padding-inline: 1ch;
+  margin-inline-end: 1ch;
+  font-size: 1.25rem;
+  }
+
+  .container{
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 500px;
+    margin: auto;
+  }
