@@ -1,76 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"></script>
-        <title>RE.Wilson_Gallery</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
-            rel="stylesheet"
-            />
-        <link rel="stylesheet" href="./WebDev/src/CSS/Gallery.css" />
-    </head>
-    <header>
-        <nav class="navbar" style="background-color: #021726;">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/index.html">RE\Wilson</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                            <a class="nav-link" href="/blog.html">Blog</a>
-                            <!-- <a class="nav-link" href="#">Pricing</a> -->
-                            <!-- <a class="nav-link disabled">Disabled</a> -->
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </nav>
-    </header>
-    <div class="container-fluid">
-        <body>
-            <h1 class="display-5 text-center">Sample Gallery </h1>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <img class="img-fluid mx-3 my-3" alt="..."
-                            src="https://i.ibb.co/2YNNCsY/940d236c2db4defe4e268f2f222b2240.jpg" alt="">
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <img class="img-fluid mx-3 my-3" alt="..." src="https://i.ibb.co/5KDW763/P7291222.jpg"
-                            alt="Photographer Selfie">
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <img class="img-fluid mx-3 my-3" alt="..."
-                            src="https://i.ibb.co/DQKyCsm/f47dc6d6863881e1bf4d6e12822f1ded.jpg" alt="">
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <img class="img-fluid mx-3 my-3" alt="..." src="https://i.ibb.co/ynBnccf/P5111403-1.jpg" alt="">
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <img class="img-fluid mx-3 my-3" alt="..." src="https://i.ibb.co/KmJmN45/P7291265.jpg" alt="">
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <img class="img-fluid mx-3 my-3" alt="..." src="https://i.ibb.co/9Wnpdw6/P9142768-1.jpg" alt="">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <title>RE.Wilson_Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./WebDev/src/CSS/Gallery.css" />
+</head>
+<header>
+    <nav class="navbar" style="background-color: #021726;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">RE\Wilson</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link" href="/blog.html">Blog</a>
+                        <!-- <a class="nav-link" href="#">Pricing</a> -->
+                        <!-- <a class="nav-link disabled">Disabled</a> -->
                     </div>
                 </div>
             </div>
+        </nav>
+    </nav>
+</header>
+<div class="container-fluid">
 
-        </body>
-    </div>
-    <footer class="text-center">
-        <small class="text-center"><p>&copy;Ryan Wilson 2022. All Rights Reserved</p></small>
-    </footer>
+    <body>
+        <h1 class="display-5 text-center">Sample Gallery </h1>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <img class="img-fluid mx-3 my-3" alt="..."
+                        src="https://i.ibb.co/2YNNCsY/940d236c2db4defe4e268f2f222b2240.jpg" alt="">
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <img class="img-fluid mx-3 my-3" alt="..." src="https://i.ibb.co/5KDW763/P7291222.jpg"
+                        alt="Photographer Selfie">
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <img class="img-fluid mx-3 my-3" alt="..."
+                        src="https://i.ibb.co/DQKyCsm/f47dc6d6863881e1bf4d6e12822f1ded.jpg" alt="">
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <img class="img-fluid mx-3 my-3" alt="..." src="https://i.ibb.co/ynBnccf/P5111403-1.jpg" alt="">
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <img class="img-fluid mx-3 my-3" alt="..." src="https://i.ibb.co/KmJmN45/P7291265.jpg" alt="">
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <img class="img-fluid mx-3 my-3" alt="..." src="https://i.ibb.co/9Wnpdw6/P9142768-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </body>
+</div>
+<footer class="text-center">
+    <small class="text-center">
+        <p>&copy;Ryan Wilson 2022. All Rights Reserved</p>
+    </small>
+</footer>
+
 </html>
